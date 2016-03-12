@@ -8,10 +8,10 @@ var pool = mysql.createPool(configDB);
 var q = query.create(pool);
 
 q.type('insert') // тип sql-запроса
- .table('users') // таблица для запроса
+ .table('Users') // таблица для запроса
  .value(10, 'MagrateyaMan', 'Slartibartfast', '') // список значений для insert-а
  .exec((err, result)=>{ // запуск запроса, результаты передаются в callback
- 	console.log('row inserted');
+ 	console.log('row inserted', err);
  	
  	q.type('select')  // тип sql-запроса
  	 .field('first_name', 'last_name') // какие поля вытащить из таблицы
@@ -51,9 +51,12 @@ function selectToConsole(rows){
 /**
 * Показать в консоли результат select-а в удобочитаемом виде
 */	
+	if(!rows[0]) console.log('0 ROWS');
+
 	let width = 13; // ширина столбца
 
 	let str = '';
+
 	for(let key in rows[0]){
 		let temp = key;
 		

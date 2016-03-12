@@ -1,5 +1,5 @@
 var Config = {
-	host    : '192.168.56.101:3306'
+	host    : '192.168.56.101'
 ,	database: 'alekhin_db'
 ,	user    : 'root'
 ,	pass    : ''
