@@ -1,0 +1,26 @@
+{
+  "name": "mysql-crud-driver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexxxiy/gb-hw-nodejs-mysq-crud-driver.git"
+  },
+  "keywords": [
+    "mysql",
+    "crud"
+  ],
+  "author": "Alexey Alekhin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexxxiy/gb-hw-nodejs-mysq-crud-driver/issues"
+  },
+  "homepage": "https://github.com/alexxxiy/gb-hw-nodejs-mysq-crud-driver#readme",
+  "dependencies": {
+    "mysql": "^2.10.2"
+  }
+}
