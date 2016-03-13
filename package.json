@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexxxiy/gb-hw-nodejs-mysq-crud-driver.git"
+    "url": "git+https://github.com/alexxxiy/gb-hw-nodejs-mysql-crud-driver.git"
   },
   "keywords": [
     "mysql",
@@ -17,9 +17,9 @@
   "author": "Alexey Alekhin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alexxxiy/gb-hw-nodejs-mysq-crud-driver/issues"
+    "url": "https://github.com/alexxxiy/gb-hw-nodejs-mysql-crud-driver/issues"
   },
-  "homepage": "https://github.com/alexxxiy/gb-hw-nodejs-mysq-crud-driver#readme",
+  "homepage": "https://github.com/alexxxiy/gb-hw-nodejs-mysql-crud-driver#readme",
   "dependencies": {
     "mysql": "^2.10.2"
   }
