@@ -1,9 +1,9 @@
 /*
 создаем новую базу данных
 */
-CREATE DATABASE alekhin_db CHARACTER SET utf8;
+CREATE DATABASE my_db CHARACTER SET utf8;
 
-USE alekhin_db;
+USE my_db;
 
 /*
 Пользователи
